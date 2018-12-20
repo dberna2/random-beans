@@ -11,7 +11,9 @@ public class MercuryTestSupport extends EasyMockSupport {
 
     public static void main(String[] args){
 
-        final Person person = new MercuryTestSupport().getObjectByClassReference(Person.class, "age");
+        final Person person = new MercuryTestSupport().getObjectByClassReference(Person.class);
+       // final List<Person> person = new MercuryTestSupport().getListByClassReference(Person.class, 13, "age");
+
         System.out.print(person);
     }
 
@@ -23,4 +25,6 @@ public class MercuryTestSupport extends EasyMockSupport {
         return EnhancedRandomConfig.buildEnhancedRandomConfiguration().objects(classToGenerate, elementTogenerate, excludeFields)
                 .collect(Collectors.toList());
     }
+
+
 }

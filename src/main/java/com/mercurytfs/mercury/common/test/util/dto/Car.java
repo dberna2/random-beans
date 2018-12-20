@@ -5,6 +5,11 @@ public class Car {
     private String name;
     private Integer color;
 
+    public Car(String name, Integer color) {
+        this.name = name;
+        this.color = color;
+    }
+
     public String getName() {
         return name;
     }

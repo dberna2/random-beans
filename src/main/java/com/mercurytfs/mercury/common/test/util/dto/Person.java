@@ -1,5 +1,6 @@
 package com.mercurytfs.mercury.common.test.util.dto;
 
+
 import java.util.List;
 
 public class Person {
@@ -8,6 +9,12 @@ public class Person {
     private Integer age;
     private Double cash;
     private List<Car> carList;
+
+    public Person(String name, Integer age, Double cash) {
+        this.name = name;
+        this.age = age;
+        this.cash = cash;
+    }
 
     public String getName() {
         return name;
@@ -33,7 +40,7 @@ public class Person {
         this.cash = cash;
     }
 
-    public List<Car> getCarList() {
+   public List<Car> getCarList() {
         return carList;
     }
 
