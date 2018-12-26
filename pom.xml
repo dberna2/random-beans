@@ -22,6 +22,19 @@
             <version>3.7.0</version>
         </dependency>
 
+        <!--dependency>
+            <groupId>io.github.benas</groupId>
+            <artifactId>random-beans-randomizers</artifactId>
+            <version>3.7.0</version>
+        </dependency-->
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>4.0.5.RELEASE</version>
+        </dependency>
+
+
         <dependency>
             <groupId>org.easymock</groupId>
             <artifactId>easymock</artifactId>
@@ -38,6 +51,18 @@
             <groupId>nl.talsmasoftware.context</groupId>
             <artifactId>spring-security-context</artifactId>
             <version>1.0.1</version>
+        </dependency>
+
+        <!-- Mercury dependencies -->
+        <dependency>
+            <groupId>com.mercurytfs.mercury.customers.bancosantander.spain.cloud.mercury.core</groupId>
+            <artifactId>base</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.mercurytfs.mercury.customers.bancosantander.spain.cloud.mercury.core.common</groupId>
+            <artifactId>common.business</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

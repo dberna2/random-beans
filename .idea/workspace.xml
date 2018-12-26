@@ -2,19 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86579bc4-28f9-44e7-8c18-6da15d88cbf7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_8_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_benas_random_beans_3_7_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_lukehutch_fast_classpath_scanner_2_2_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_easymock_easymock_4_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_5_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/bean/data/bank/Bank.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/bean/data/company/Company.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/configuration/bank/BankRandomizerConfiguration.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/configuration/company/CompanyRandomizerConfiguration.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/bank/BankNameRandomizer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/company/CompanyCityRandomizer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/company/CompanyNameRandomizer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/company/Ejemplo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/company/Ejemplo2.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/util/CityRandomizer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/util/MercuryRandom.java" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/commontestutils.iml" afterPath="$PROJECT_DIR$/commontestutils.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/MercuryTestSupport.java" afterPath="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/MercuryTestSupport.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/configuration/EnhancedRandomConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/configuration/EnhancedRandomConfig.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/context/MercuryContextSupport.java" afterPath="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/context/MercuryContextSupport.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/dto/Car.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/dto/Person.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/CarRandomizer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/PersonRandomizer.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,8 +38,8 @@
       <file leaf-file-name="MercuryTestSupport.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/MercuryTestSupport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="93" lean-forward="false" selection-start-line="13" selection-start-column="93" selection-end-line="13" selection-end-column="93" />
+            <state relative-caret-position="1076">
+              <caret line="56" column="9" lean-forward="false" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,21 +47,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnhancedRandomConfig.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/configuration/EnhancedRandomConfig.java">
+      <file leaf-file-name="Bank.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/bean/data/bank/Bank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="239">
+              <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="257">
+              <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -74,6 +84,7 @@
       <find>supplier</find>
       <find>randomize</find>
       <find>parameters</find>
+      <find>Locale</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -94,15 +105,36 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/configuration/randomizer/NameRandomizer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/configuration/randomizer/CarRandomizer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/configuration/randomizer/PersonRandomizer.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/context/MercuryContextSupport.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/dto/Car.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/dto/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/CarRandomizer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/PersonRandomizer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/MercuryTestSupport.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/configuration/EnhancedRandomConfig.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/NameRandomizer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/CarRandomizer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/context/MercuryContextSupport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/dto/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/bean/importlc/ImportLCissueBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/util/MercuryRandom.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/bean/company/configuration/Company.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/CompanyBeanBasicRandomizer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/bean/company/CompanyBeanBasicRandomizer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/bean/company/CompanyNameRandomizer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/bean/company/Ejemplo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/bean/company/Ejemplo2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/bean/company/CompanyListRandomizer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/configuration/company/CompanyConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/bean/company/CompanyCityRandomizer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/configuration/company/CompanyRandomizerConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/bean/company/data/Company.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/configuration/company/BankRandomizerConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/configuration/EnhancedRandomConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/configuration/bank/BankRandomizerConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/bean/bank/BankNameRandomizer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/bean/data/bank/Bank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/util/CityRandomizer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/company/Ejemplo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/company/Ejemplo2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/MercuryTestSupport.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -222,7 +254,9 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -238,9 +272,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -281,7 +312,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="commontestutils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commontestutils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="bank" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="commontestutils" type="b2602c69:ProjectViewProjectNode" />
@@ -299,7 +340,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
+              <item name="randomizer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="commontestutils" type="b2602c69:ProjectViewProjectNode" />
@@ -309,11 +350,28 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
               <item name="randomizer" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="commontestutils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commontestutils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="commontestutils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -325,13 +383,19 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../random-beans" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.mercurytfs.mercury.common.test.util.randomizer.bean" />
+      <recent name="com.mercurytfs.mercury.common.test.util.bean.data" />
       <recent name="com.mercurytfs.mercury.common.test.util" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mercurytfs.mercury.common.test.util.randomizer.bean.bank" />
+      <recent name="com.mercurytfs.mercury.common.test.util.configuration.company" />
+      <recent name="com.mercurytfs.mercury.common.test.util.randomizer.bean.company" />
+      <recent name="com.mercurytfs.mercury.common.test.util.randomizer" />
       <recent name="com.mercurytfs.mercury.common.test.util.dto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -485,14 +549,17 @@
       <workItem from="1544831685994" duration="24327000" />
       <workItem from="1545269815496" duration="6665000" />
       <workItem from="1545316765409" duration="1343000" />
+      <workItem from="1545787245949" duration="6416000" />
+      <workItem from="1545793781641" duration="2869000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32335000" />
+    <option name="totallyTimeSpent" value="43259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -502,7 +569,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -511,11 +578,13 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Code Review" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25725028" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26476908" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -524,9 +593,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,13 +606,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/io/github/benas/random-beans/3.7.0/random-beans-3.7.0-sources.jar!/io/github/benas/randombeans/RandomizerProvider.java</url>
-          <line>56</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/bean/data/company/Company.java</url>
+          <line>14</line>
           <properties />
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -582,114 +649,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/MercuryTestSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="75" lean-forward="false" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/benas/random-beans/3.7.0/random-beans-3.7.0-sources.jar!/io/github/benas/randombeans/api/EnhancedRandom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2499">
-          <caret line="119" column="26" lean-forward="false" selection-start-line="119" selection-start-column="26" selection-end-line="119" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/dto/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/configuration/EnhancedRandomConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/benas/random-beans/3.7.0/random-beans-3.7.0-sources.jar!/io/github/benas/randombeans/EnhancedRandomBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8127">
-          <caret line="432" column="45" lean-forward="false" selection-start-line="432" selection-start-column="35" selection-end-line="432" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/benas/random-beans/3.7.0/random-beans-3.7.0-sources.jar!/io/github/benas/randombeans/EnhancedRandomImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2877">
-          <caret line="169" column="0" lean-forward="true" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/MercuryTestSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/configuration/EnhancedRandomConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="46" lean-forward="false" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/CarRandomizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#389#390#0" expanded="false" />
-            <element signature="e#420#421#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/benas/random-beans/2.0.0/random-beans-2.0.0.jar!/io/github/benas/randombeans/api/EnhancedRandom.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/EnhancedRandomUtil.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/benas/random-beans/3.7.0/random-beans-3.7.0.jar!/io/github/benas/randombeans/api/EnhancedRandom.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/benas/random-beans/3.7.0/random-beans-3.7.0.jar!/io/github/benas/randombeans/RandomizerProxy.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/benas/random-beans/3.7.0/random-beans-3.7.0.jar!/io/github/benas/randombeans/EnhancedRandomImpl.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="239" column="6" lean-forward="false" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/function/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1200">
-          <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/benas/random-beans/3.7.0/random-beans-3.7.0-sources.jar!/io/github/benas/randombeans/api/RandomizerRegistry.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/function/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-129">
@@ -714,8 +673,6 @@
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/github/benas/random-beans/3.7.0/random-beans-3.7.0-sources.jar!/io/github/benas/randombeans/randomizers/number/IntegerRandomizer.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/benas/random-beans/3.7.0/random-beans-3.7.0-sources.jar!/io/github/benas/randombeans/randomizers/AbstractRandomizer.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/benas/random-beans/3.7.0/random-beans-3.7.0-sources.jar!/io/github/benas/randombeans/RandomizerProvider.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/io/github/glytching/junit-extensions/2.3.0/junit-extensions-2.3.0.jar!/io/github/glytching/junit/extension/watcher/WatcherExtension.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -755,7 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,7 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -774,19 +729,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/benas/random-beans/3.7.0/random-beans-3.7.0-sources.jar!/io/github/benas/randombeans/EnhancedRandomImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="169" column="0" lean-forward="false" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/github/benas/random-beans/3.7.0/random-beans-3.7.0-sources.jar!/io/github/benas/randombeans/EnhancedRandomBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="432" column="45" lean-forward="false" selection-start-line="432" selection-start-column="35" selection-end-line="432" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -794,100 +740,234 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="119" column="26" lean-forward="false" selection-start-line="119" selection-start-column="26" selection-end-line="119" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/dto/Car.java" />
+    <entry file="file://$PROJECT_DIR$/commontestutils.iml" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        <state relative-caret-position="71">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/benas/random-beans/3.7.0/random-beans-3.7.0-sources.jar!/io/github/benas/randombeans/RandomizerProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/benas/random-beans/3.7.0/random-beans-3.7.0-sources.jar!/io/github/benas/randombeans/EnhancedRandomImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/dto/Person.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/bean/importlc/ImportLCissueBean.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/mercurytfs/mercury/customers/bancosantander/spain/cloud/mercury/core/base/1.0.0-SNAPSHOT/base-1.0.0-SNAPSHOT.jar!/com/mercurytfs/mercury/core/base/business/beans/CompanyBeanBasic.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/benas/random-beans/3.7.0/random-beans-3.7.0-sources.jar!/io/github/benas/randombeans/FieldDefinitionBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/PersonRandomizer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/CarRandomizer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/NameRandomizer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/bean/company/CompanyListRandomizer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/bean/company/CompanyRandomizer.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/context/MercuryContextSupport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="336">
+          <caret line="40" column="44" lean-forward="false" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1039#1040#0" expanded="false" />
-            <element signature="e#1057#1058#0" expanded="false" />
-            <element signature="e#1103#1104#0" expanded="false" />
-            <element signature="e#1121#1122#0" expanded="false" />
-            <element signature="e#1199#1200#0" expanded="false" />
-            <element signature="e#1217#1218#0" expanded="false" />
+            <element signature="e#628#629#0" expanded="false" />
+            <element signature="e#667#668#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/dto/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/company/CompanyCityRandomizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="48" column="5" lean-forward="false" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        <state relative-caret-position="168">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#328#329#0" expanded="false" />
+            <element signature="e#367#368#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/bean/data/company/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="24" column="56" lean-forward="false" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/configuration/EnhancedRandomConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="26" column="55" lean-forward="false" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/configuration/bank/BankRandomizerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/dto/Car.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/configuration/company/CompanyRandomizerConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="231">
+          <caret line="11" column="148" lean-forward="false" selection-start-line="11" selection-start-column="148" selection-end-line="11" selection-end-column="148" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/company/CompanyNameRandomizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/PersonRandomizer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/benas/random-beans/3.7.0/random-beans-3.7.0-sources.jar!/io/github/benas/randombeans/randomizers/AbstractRandomizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/bank/BankNameRandomizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#387#388#0" expanded="false" />
+            <element signature="e#424#425#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/benas/random-beans-randomizers/3.7.0/random-beans-randomizers-3.7.0.jar!/io/github/benas/randombeans/randomizers/FakerBasedRandomizer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="63" lean-forward="false" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/benas/random-beans-randomizers/3.7.0/random-beans-randomizers-3.7.0.jar!/io/github/benas/randombeans/randomizers/CityRandomizer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/util/MercuryRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/company/Ejemplo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/CarRandomizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="29" />
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#389#390#0" expanded="false" />
-            <element signature="e#420#421#0" expanded="false" />
+            <element signature="e#747#748#0" expanded="false" />
+            <element signature="e#783#784#0" expanded="false" />
+            <element signature="e#848#849#0" expanded="false" />
+            <element signature="e#898#899#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/MercuryTestSupport.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/mercurytfs/mercury/customers/bancosantander/spain/cloud/mercury/core/base/1.0.0-SNAPSHOT/base-1.0.0-SNAPSHOT.jar!/com/mercurytfs/mercury/core/base/business/beans/BankBeanBasic.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="93" lean-forward="false" selection-start-line="13" selection-start-column="93" selection-end-line="13" selection-end-column="93" />
+        <state relative-caret-position="-890">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/randomizer/company/Ejemplo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding>
+            <element signature="e#802#803#0" expanded="false" />
+            <element signature="e#838#839#0" expanded="false" />
+            <element signature="e#909#910#0" expanded="false" />
+            <element signature="e#959#960#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/util/CityRandomizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/bean/data/bank/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commontestutils.iml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/MercuryTestSupport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1076">
+          <caret line="56" column="9" lean-forward="false" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercurytfs/mercury/common/test/util/configuration/EnhancedRandomConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="257">
+          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding />
         </state>
       </provider>
