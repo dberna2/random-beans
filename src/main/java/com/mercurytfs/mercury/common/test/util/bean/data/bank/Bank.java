@@ -1,38 +1,27 @@
 package com.mercurytfs.mercury.common.test.util.bean.data.bank;
 
-import com.mercurytfs.mercury.common.test.util.util.MercuryRandom;
+import com.mercurytfs.mercury.common.test.util.bean.data.ConfigurationData;
 import com.mercurytfs.mercury.core.base.business.beans.BankBeanBasic;
 
-import java.util.ArrayList;
-import java.util.List;
+public class Bank extends ConfigurationData<BankBeanBasic> {
 
-public class Bank {
+    private static BankBeanBasic bank = null;
 
-    private static final MercuryRandom RANDOM = new MercuryRandom();
-
-    protected String getBankyName(){
-        Integer arraySize = buildCompanies().size();
-        return buildCompanies().get(RANDOM.nextInt(arraySize)).getName();
+    protected String getBankName(){
+        bank = getRandomObject();
+        return bank.getName();
     }
 
-    private List<BankBeanBasic> buildCompanies(){
+    protected String getBankAddress1(){
+        return bank.getAddress1();
+    }
 
-        List<BankBeanBasic> companyList = new ArrayList<>();
+    protected String getBankAddress2(){
+        return bank.getAddress2();
+    }
 
-        BankBeanBasic beanBasic = new BankBeanBasic();
-        beanBasic.setId(RANDOM.nextInt());
-        beanBasic.setCity("Madrid");
-        beanBasic.setName("Example");
-
-        companyList.add(beanBasic);
-
-        beanBasic = new BankBeanBasic();
-        beanBasic.setId(RANDOM.nextInt());
-        beanBasic.setCity("Lima");
-        beanBasic.setName("Example2");
-
-        companyList.add(beanBasic);
-
-        return companyList;
+    @Override
+    protected  Class<BankBeanBasic> getClassReference() {
+        return BankBeanBasic.class;
     }
 }

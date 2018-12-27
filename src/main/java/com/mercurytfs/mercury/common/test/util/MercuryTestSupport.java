@@ -1,8 +1,8 @@
 package com.mercurytfs.mercury.common.test.util;
 
-import com.mercurytfs.mercury.common.test.util.configuration.EnhancedRandomConfig;
+import com.mercurytfs.mercury.common.test.util.randomizer.EnhancedRandomConfig;
 import com.mercurytfs.mercury.common.test.util.context.MercuryContextSupport;
-import com.mercurytfs.mercury.common.test.util.randomizer.Ejemplo;
+import com.mercurytfs.mercury.core.base.service.dto.EventDTO;
 import com.mercurytfs.mercury.core.base.service.dto.UserTypeDTO;
 import org.easymock.EasyMockSupport;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -17,12 +17,16 @@ public class MercuryTestSupport extends EasyMockSupport {
     public static void main(String[] args){
 
         final Ejemplo person = new MercuryTestSupport().getObjectByClassReference(Ejemplo.class);
+
+        //final EventDTO person = new MercuryTestSupport().getObjectByClassReference(EventDTO.class);
         //final Ejemplo2 person = new MercuryTestSupport().getObjectByClassReference(Ejemplo2.class);
         //final List<Ejemplo2> person = new MercuryTestSupport().getListByClassReference(Ejemplo2.class, 4);
 
-        System.out.print(person.getBankBeanBasic().getName() + " - " + person.getBankBeanBasic().getCity());
+        //System.out.println(person);
+        System.out.print(person.getBankBeanBasic().getName() + " - " + person.getBankBeanBasic().getAddress1() +
+                " - " + person.getBankBeanBasic().getAddress2());
 
-        //person.getBankBeanBasic().forEach(i -> System.out.println(i.getName() + " - " + i.getCity() ));
+      //  person.getBankBeanBasic().forEach(i -> System.out.println(i.getName() + " - " + i.getAddress1() + " - " + i.getAddress2()));
 
         //person.forEach(item -> item.getCompanyBeanBasic().forEach(i -> System.out.println(i.getName() + " - " + i.getCity() )));
     }

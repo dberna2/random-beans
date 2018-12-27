@@ -1,4 +1,4 @@
-package com.mercurytfs.mercury.common.test.util.configuration.company;
+package com.mercurytfs.mercury.common.test.util.randomizer.company.configuration;
 
 import com.mercurytfs.mercury.common.test.util.randomizer.company.CompanyCityRandomizer;
 import com.mercurytfs.mercury.common.test.util.randomizer.company.CompanyNameRandomizer;

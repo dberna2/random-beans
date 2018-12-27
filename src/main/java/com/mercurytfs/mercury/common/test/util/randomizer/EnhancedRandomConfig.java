@@ -1,7 +1,7 @@
-package com.mercurytfs.mercury.common.test.util.configuration;
+package com.mercurytfs.mercury.common.test.util.randomizer;
 
-import com.mercurytfs.mercury.common.test.util.configuration.bank.BankRandomizerConfiguration;
-import com.mercurytfs.mercury.common.test.util.configuration.company.CompanyRandomizerConfiguration;
+import com.mercurytfs.mercury.common.test.util.randomizer.bank.configuration.BankRandomizerConfiguration;
+import com.mercurytfs.mercury.common.test.util.randomizer.company.configuration.CompanyRandomizerConfiguration;
 import io.github.benas.randombeans.EnhancedRandomBuilder;
 import io.github.benas.randombeans.api.EnhancedRandom;
 
@@ -11,13 +11,11 @@ public final class EnhancedRandomConfig {
 
     public static EnhancedRandom buildEnhancedRandomConfiguration(){
         EnhancedRandomBuilder randomBuilder = EnhancedRandomBuilder.aNewEnhancedRandomBuilder()
-                .seed(123L)
-                .objectPoolSize(10)
                 .charset(forName("UTF-8"))
-                .randomizationDepth(3)
+                .randomizationDepth(5)
                 .overrideDefaultInitialization(false)
                 .scanClasspathForConcreteTypes (true)
-                .collectionSizeRange(1,3);
+                .collectionSizeRange(2, 5);
         return buildCustomRandomize(randomBuilder).build();
 
     }

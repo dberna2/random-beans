@@ -1,43 +1,28 @@
 package com.mercurytfs.mercury.common.test.util.bean.data.company;
 
+import com.mercurytfs.mercury.common.test.util.bean.data.ConfigurationData;
+import com.mercurytfs.mercury.common.test.util.util.JSONUtils;
 import com.mercurytfs.mercury.common.test.util.util.MercuryRandom;
 import com.mercurytfs.mercury.core.base.business.beans.CompanyBeanBasic;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Company {
+public class Company extends ConfigurationData<CompanyBeanBasic>{
 
-    private static final MercuryRandom RANDOM = new MercuryRandom();
+    private static CompanyBeanBasic company = null;
 
     protected String getCompanyName(){
-        Integer arraySize = buildCompanies().size();
-        return buildCompanies().get(RANDOM.nextInt(arraySize)).getName();
+        company = getRandomObject();
+        return company.getName();
     }
 
     protected String getCompanyCity(){
-        Integer arraySize = buildCompanies().size();
-        return buildCompanies().get(RANDOM.nextInt(arraySize)).getCity();
+        return company.getCity();
     }
 
-    private List<CompanyBeanBasic> buildCompanies(){
-
-        List<CompanyBeanBasic> companyList = new ArrayList<>();
-
-        CompanyBeanBasic beanBasic = new CompanyBeanBasic();
-        beanBasic.setId(RANDOM.nextInt());
-        beanBasic.setCity("BOGOTA");
-        beanBasic.setName("Example");
-
-        companyList.add(beanBasic);
-
-        beanBasic = new CompanyBeanBasic();
-        beanBasic.setId(RANDOM.nextInt());
-        beanBasic.setCity("SPAIN");
-        beanBasic.setName("Example2");
-
-        companyList.add(beanBasic);
-
-        return companyList;
+    @Override
+    protected Class<CompanyBeanBasic> getClassReference() {
+        return CompanyBeanBasic.class;
     }
 }

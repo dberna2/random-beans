@@ -1,15 +1,13 @@
-package com.mercurytfs.mercury.common.test.util.randomizer;
+package com.mercurytfs.mercury.common.test.util;
 
 import com.mercurytfs.mercury.core.base.business.beans.BankBeanBasic;
 import com.mercurytfs.mercury.core.base.business.beans.CompanyBeanBasic;
 
-import java.util.List;
-
-public class Ejemplo2 {
+public class Ejemplo {
 
     private String name;
-    private List<CompanyBeanBasic> companyBeanBasic;
-    private List<BankBeanBasic> bankBeanBasic;
+    private CompanyBeanBasic companyBeanBasic;
+    private BankBeanBasic bankBeanBasic;
 
     public String getName() {
         return name;
@@ -19,19 +17,19 @@ public class Ejemplo2 {
         this.name = name;
     }
 
-    public List<CompanyBeanBasic> getCompanyBeanBasic() {
+    public CompanyBeanBasic getCompanyBeanBasic() {
         return companyBeanBasic;
     }
 
-    public void setCompanyBeanBasic(List<CompanyBeanBasic> companyBeanBasic) {
+    public void setCompanyBeanBasic(CompanyBeanBasic companyBeanBasic) {
         this.companyBeanBasic = companyBeanBasic;
     }
 
-    public List<BankBeanBasic> getBankBeanBasic() {
+    public BankBeanBasic getBankBeanBasic() {
         return bankBeanBasic;
     }
 
-    public void setBankBeanBasic(List<BankBeanBasic> bankBeanBasic) {
+    public void setBankBeanBasic(BankBeanBasic bankBeanBasic) {
         this.bankBeanBasic = bankBeanBasic;
     }
 }
