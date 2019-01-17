@@ -1,0 +1,86 @@
+[
+  {
+    "id": 243434,
+    "name": "DEUTSCHE BANK AG",
+    "address1": "Taunusanlage 12",
+    "address2": "60325 Frankfurt AM Main",
+    "bic": "DEUTESBBXXX",
+    "countryName": null,
+    "roleName": null,
+    "parentName": null,
+    "defaultBank": false,
+    "city": "Frankfurt"
+  },
+  {
+    "id": 343423,
+    "name": "BANCO SANTANDER CHILE",
+    "address1": "Bandera 140",
+    "address2": "Santiago",
+    "bic": "BSCHCLRMXXX",
+    "countryName": null,
+    "roleName": null,
+    "parentName": null,
+    "defaultBank": false,
+    "city": "Santiago"
+  },
+  {
+    "id": 987654,
+    "name": "COMMERZBANK",
+    "address1": "Osterstr. 111",
+    "address2": "20259 Hamburg",
+    "bic": "COBADEFFXXX",
+    "countryName": null,
+    "roleName": null,
+    "parentName": null,
+    "defaultBank": false,
+    "city": "Hamburg"
+  },
+  {
+    "id": 234333,
+    "name": "JP MORGAN CHASE BANK",
+    "address1": "270 Broadway",
+    "address2": "New York City",
+    "bic": "CHASUS33XXX",
+    "countryName": null,
+    "roleName": null,
+    "parentName": null,
+    "defaultBank": false,
+    "city": "New York City"
+  },
+  {
+    "id": 78900,
+    "name": "BANK OF AMERICA",
+    "address1": "Nationsbank Tower 100",
+    "address2": "South East 2nd Street",
+    "bic": "BOFAUS3MXXX",
+    "countryName": null,
+    "roleName": null,
+    "parentName": null,
+    "defaultBank": false,
+    "city": "Miami"
+  },
+  {
+    "id": 45653,
+    "name": "WESTPAC BANKING CORPORATION",
+    "address1": "55 Market Street",
+    "address2": "Floor 12",
+    "bic": "WPACAU2SXXX",
+    "countryName": null,
+    "roleName": null,
+    "parentName": null,
+    "defaultBank": false,
+    "city": "Sydney"
+  },
+  {
+    "id": 122322,
+    "name": "NATWEST BANK PLC",
+    "address1": "Premier Place",
+    "address2": "Devonshire Square",
+    "bic": "NWBKGB2LXXX",
+    "countryName": null,
+    "roleName": null,
+    "parentName": null,
+    "defaultBank": false,
+    "city": "London"
+  }
+]
